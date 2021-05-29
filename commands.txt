@@ -1,0 +1,7 @@
+sqlite3.exe db.sqlite3
+.mode csv
+.import books.csv book_book
+
+
+
+Data > text to columns > delimited > remove > select date DMY
